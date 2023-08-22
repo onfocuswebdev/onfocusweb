@@ -18,6 +18,11 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
+        <head>
+        {/* <!-- Start cookieyes banner -->  */}
+        <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/92d8ab746d7e85a9d58794dd/script.js"></script> 
+        {/* <!-- End cookieyes banner --> */}
+        </head>
         <body>
           <Navbar />
           <main>
