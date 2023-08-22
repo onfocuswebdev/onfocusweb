@@ -18,7 +18,7 @@ async function Page() {
         <h1 className="font-extrabold text-4xl">Request a new Project</h1>
       </div>
 
-      <PostThread userId={userInfo?._id} />
+      <PostThread userId={userInfo._id} />
     </>
   );
 }

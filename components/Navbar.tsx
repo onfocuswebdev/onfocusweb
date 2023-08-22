@@ -27,7 +27,6 @@ const Navbar = () => {
         </div>
         <div className='flexCenter gap-4'>
             <>
-                <UserButton afterSignOutUrl="/"/>
                 <SignedOut>
                     <SignInButton mode="modal">
                         <button className="btn">
@@ -38,6 +37,9 @@ const Navbar = () => {
                 <SignedIn>
                     <Link href="/create-thread" >
                         Request a new project
+                    </Link>
+                    <Link href="/requests" >
+                        My Requests
                     </Link>
                     <Link href="/" >
                         My Projects
