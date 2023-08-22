@@ -5,6 +5,7 @@ export const NavLinksEng = [
   { href: "#about", key: "About Us", text: "About Us" },
   { href: "#work", key: "Our Work", text: "Our Work" },
   { href: "#contact", key: "Contact", text: "Contact" },
+  { href: "/offers", key: "Pricing", text: "Pricing" },
 ];
 
 export const NavLinksIta = [
