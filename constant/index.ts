@@ -64,21 +64,27 @@ export const OffersText = [
     product_name: "Online Presence Pro",
     description:
       "Ready to carve your corner of the digital world? Embrace Your Online Presence Pro today and unlock the power of a personal one-page website, unparalleled SEO management, and seamless email integration. Your story deserves to be told—let's make it unforgettable together. Get started now!",
-    price: "€29,99",
-    payment_link: process.env.NEXT_PUBLIC_STRIPE_PERSONAL_LINK
+    price_monthly: "€39,99",
+    price_yearly: "€29,99",
+    payment_link_monthly: process.env.NEXT_PUBLIC_STRIPE_PERSONAL_LINK_MONTHLY,
+    payment_link_yearly: process.env.NEXT_PUBLIC_STRIPE_PERSONAL_LINK_YEARLY
   },
   {
     product_name: "Dynamic Business Solution",
     description:
     "More than a product, it's a gateway to success. Embrace UltimateBiz Boost and harness the potency of a multi-page business website, expert SEO management, efficient booking services, real-time chat, and impeccable email integration. Unleash your business's full potential today! Ready to soar? Elevate your business now!",
-    price: "€69,99",
-    payment_link: process.env.NEXT_PUBLIC_STRIPE_BUSINESS_LINK
+    price_monthly: "€69,99",
+    price_yearly: "€59,99",
+    payment_link_monthly: process.env.NEXT_PUBLIC_STRIPE_BUSINESS_LINK_MONTHLY,
+    payment_link_yearly: process.env.NEXT_PUBLIC_STRIPE_BUSINESS_LINK_YEARLY
   },
   {
     product_name: "All-in-One Online Store",
     description:
     "It's not just a website, it's your entry ticket to the booming world of online retail. Embrace the future with a Complete E-Commerce Website that empowers you to sell, scale, and succeed like never before. Ready to embark on your e-commerce journey? Your dream store is a click away. Start building today!",
-    price: "€109,99",
-    payment_link: process.env.NEXT_PUBLIC_STRIPE_COMMERCE_LINK
+    price_monthly: "€109,99",
+    price_yearly: "€99,99",
+    payment_link_monthly: process.env.NEXT_PUBLIC_STRIPE_COMMERCE_LINK_MONTHLY,
+    payment_link_yearly: process.env.NEXT_PUBLIC_STRIPE_COMMERCE_LINK_YEARLY
   },
 ];
