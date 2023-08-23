@@ -7,7 +7,6 @@ import { OffersText } from "@/constant/index"
 const Offers = () => {
   return (
     <>
-      <Navbar />
       <div className="bg-white min-h-screen flex justify-center items-center">
         <div className="md:flex w-2/3 md:space-x-10 space-y-10 md:space-y-0">
         {OffersText.map((offer: any) => (
@@ -16,12 +15,12 @@ const Offers = () => {
               description={offer.description}
               price={offer.price}
               source_code_link={offer.payment_link}
+              key={offer.product_name}
             />
 
         ))}
         </div>
       </div>
-      <Footer />
     </>
   );
 };
