@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import { OffersText } from "@/constant/index";
 
 const Offers = () => {
-  const [isYearly, setIsYearly] = useState(false);
+  const [isYearly, setIsYearly] = useState(true);
   return (
     <>
       <div className="flex justify-center my-5">
