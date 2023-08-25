@@ -2,8 +2,6 @@
 
 import React, { useState } from "react";
 import OfferCard from "@/components/cards/OfferCard";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import { OffersText } from "@/constant/index";
 
 const Offers = () => {
