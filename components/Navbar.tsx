@@ -17,7 +17,7 @@ const Navbar = () => {
                     alt='logo'
                 />
             </Link>
-            <ul className='xl:flex hidden text-small gap-7'>
+            <ul className='md:flex hidden text-small gap-7'>
                 {NavLinksEng.map((link) => (
                     <Link href={link.href} key={link.text}>
                     {link.text}
